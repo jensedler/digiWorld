@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <editorsettings>
   <export target="jens.json" format="json"/>
  </editorsettings>
@@ -84,6 +84,9 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="348" name="rc3-mullana-functionary" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="rc3-mullana-functionary.png" width="512" height="512"/>
+ </tileset>
  <layer id="1" name="floor" width="12" height="13">
   <data encoding="csv">
 13,161,162,163,163,163,163,163,163,163,163,13,
@@ -125,13 +128,53 @@
 0,0,0,0,0,0,0,0,0,0,0,0,
 279,0,0,0,0,0,0,0,0,264,0,0,
 0,0,0,275,0,0,0,0,0,0,0,0,
-0,0,275,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,289,0,0,0,0,
 0,0,0,0,0,0,258,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="bielefeld" width="12" height="13">
+  <properties>
+   <property name="openWebsite" value="https://bielefeld.de"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,294,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="jitsiRoom" width="12" height="13">
+  <properties>
+   <property name="jitsiRoom" value="blerk"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
+0,0,0,0,0,0,0,0,360,360,360,0,
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -142,7 +185,7 @@
 0,0,22,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,22,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
