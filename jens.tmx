@@ -265,7 +265,7 @@
  </layer>
  <layer id="11" name="exit" width="12" height="13">
   <properties>
-   <property name="exitURL" value="ziel.json#start"/>
+   <property name="exitUrl" value="ziel.json#start"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,
