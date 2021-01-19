@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="1">
  <editorsettings>
   <export target="jens.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="flor_walls" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../../../Downloads/world-tiles-master/structures/rc3-mullana-floor-wall.png" width="512" height="512"/>
+  <image source="rc3-mullana-floor-wall.png" width="512" height="512"/>
   <tile id="12">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -186,7 +186,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="10" name="startup" width="12" height="13">
+ <layer id="10" name="startup" width="12" height="13" opacity="0.28">
   <properties>
    <property name="playAudio" value="startup.mp3"/>
   </properties>
@@ -257,6 +257,26 @@
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="exit" width="12" height="13">
+  <properties>
+   <property name="exitURL" value="ziel.json#start"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,415,416,417,0,0,0,0,0,0,0,0,
+0,431,432,433,0,0,0,0,0,0,0,0,
+0,447,448,449,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
